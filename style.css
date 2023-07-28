@@ -1,15 +1,19 @@
 *{
 	margin: 0px;
 
-	padding: opx;
+	padding: 0px;
 	box-sizing: border-box;
 	
 }
 .container{
-	    background-color: rgba(241, 141, 176, 0.838);
+	    display: flex;
+	    justify-content: center;
+	    align-items:flex-start;
+	     background-image: linear-gradient(to right, rgba(200, 19, 19, 0), rgba(255, 0, 0, 0.974));
+	    
 	    width: 100%;
 	    min-height: 100vh;
-	    padding: 20px;
+	    padding: 30px;
 
 	   
 
