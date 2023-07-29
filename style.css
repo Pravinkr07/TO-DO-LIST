@@ -1,6 +1,5 @@
 *{
 	margin: 0px;
-
 	padding: 0px;
 	box-sizing: border-box;
 	
@@ -13,9 +12,7 @@
 	    
 	    width: 100%;
 	    min-height: 100vh;
-	    padding: 30px;
-
-	   
+	    padding: 30px;   
 
 }
 .todo-list{
