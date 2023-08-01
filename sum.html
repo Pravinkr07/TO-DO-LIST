@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>input calculator</title>
+</head>
+<body>
+	<div class="container">
+		<div class="calculator">
+			<form>
+				<div class="display">
+					<input type="text" name="display">
+				</div>
+				<div>
+					<input type="button" value="5" onclick="display.value += '5'">
+					<input type="button" value="4" onclick="display.value += '4'">
+					<input type="button" value="+" onclick="display.value += '+'">
+
+					<input type="button" value="=" onclick="display.value =eval(display.value)">
+
+				</div>
+			</form>
+			
+		</div>
+	</div>
+
+</body>
+</html>
